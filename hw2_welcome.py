@@ -33,5 +33,6 @@ def welcome():
 
 if __name__ == '__main__':
     welcome()
-    enter_name = input("What is your name? ")
-    print(f"Welcome {enter_name}")
+    username = input("What is your name? ")
+    print(f"Name: {username}")
+    print(f"welcome {username}")
