@@ -40,3 +40,12 @@ def rate():
 
 if __name__ == "__main__":
     rate()
+    number_of_hours_worked = input("How many hours did you work?: ")
+    int(number_of_hours_worked)
+    print(f"Hours: {number_of_hours_worked}")
+    rate_in_dollars = input("What is your pay rate (in dollars)?: ")
+    print(f"Pay Rate: ${rate_in_dollars}")
+    int(rate_in_dollars)
+    expected_paycheck = (int(number_of_hours_worked) * int(rate_in_dollars))
+    int(expected_paycheck)
+    print(f"Your expected paycheck is: ${expected_paycheck}")
