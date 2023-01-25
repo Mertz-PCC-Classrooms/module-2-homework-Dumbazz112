@@ -33,13 +33,6 @@ your code to fulfill the requirements for this assignment.
 """
 
 def rate():
-    # START: your code here
-    # NOTE: you can remove the `pass` here if you want.  It's a null operation.
-    pass
-    # END: your code here
-
-if __name__ == "__main__":
-    rate()
     number_of_hours_worked = input("How many hours did you work?: ")
     number_of_hours_worked = float(number_of_hours_worked)
     print(f"Hours: {number_of_hours_worked}")
@@ -51,3 +44,8 @@ if __name__ == "__main__":
     expected_paycheck = (number_of_hours_worked) * (rate_in_dollars)
     expected_paycheck = float(expected_paycheck)
     print(f"Your expected paycheck is: ${expected_paycheck}")
+
+
+if __name__ == "__main__":
+    rate()
+    

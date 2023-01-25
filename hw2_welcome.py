@@ -26,13 +26,10 @@ your code to fulfill the requirements for this assignment.
 """
 
 def welcome():
-    # START: Your code here
-    # NOTE: you can remove the `pass` here if you want.  It's a null operation.
-    pass
-    # END: Your code here
-
-if __name__ == '__main__':
-    welcome()
     username = input("What is your name? ")
     print(f"Name: {username}")
     print(f"Welcome {username}")
+
+if __name__ == '__main__':
+    welcome()
+    
