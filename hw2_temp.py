@@ -27,10 +27,15 @@ your code to fulfill the requirements for this assignment.
 """
 
 def temp():
-    # START: your code here
-    # NOTE: you can remove the `pass` here if you want.  It's a null operation.
-    pass
-    # END: your code here
+    insert_temperature = input("What is the temperature you would like to convert (C)? ")
+    insert_temperature = int(insert_temperature)
+    print(f"Temp (in C): {insert_temperature}")
+    
+    Temp_in_F = ((insert_temperature * 9) / 5) + 32
+    Temp_in_F = float(Temp_in_F)
+    print(f"Temperature {insert_temperature}C is {Temp_in_F}F")
 
 if __name__ == "__main__":
     temp()
+    
+    
