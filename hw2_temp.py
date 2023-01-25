@@ -35,7 +35,7 @@ def temp():
 if __name__ == "__main__":
     temp()
     insert_temperature = input("What is the temperature you would like to convert (C)? ")
-    insert_temperature = float(insert_temperature)
+    insert_temperature = int(insert_temperature)
     print(f"Temp (in C): {insert_temperature}")
     
     Temp_in_F = ((insert_temperature * 9) / 5) + 32
