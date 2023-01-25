@@ -35,4 +35,4 @@ if __name__ == '__main__':
     welcome()
     username = input("What is your name? ")
     print(f"Name: {username}")
-    print(f"welcome {username}")
+    print(f"Welcome {username}")
